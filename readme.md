@@ -47,8 +47,6 @@ Upon completion of the project you'll need to provide not only the source (via G
 
 
 
-### Sample Wireframe
---------
-Your final product may look something like this:
+Final project Looks like this :
 
-![sample](sample.png)
+![sample](FinishedEx.png)
