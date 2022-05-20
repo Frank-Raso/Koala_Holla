@@ -1,7 +1,4 @@
-This must stop:
----------------
-![Nevar again](https://i.makeagif.com/media/8-22-2014/GO_DT4.gif)
-
+![sample](FinishedEx.png)
 
 Koala Holla
 ===========
@@ -31,21 +28,6 @@ Koala Holla has provided a table of their current inventory:
 They need the ability to add a Koala to the database. Make a form with the appropriate info. Save the koala in the database. Think about what data types you'll be needing for your table columns.  
 
 They need the ability for mark a Koala ready for transfer. Each koala in your UI needs a button in that reads 'Ready for Transfer'. When the user clicks on the button, it should update the database for the specific Koala. The 'Ready for Transfer' button should only appear for Koalas that haven't yet been marked ready for transfer.
-
-Delivery
---------
-Upon completion of the project you'll need to provide not only the source (via GitHub url), but also instructions on how the database table should be set up. This can be in a simple `database.sql` file in the repo.
-
-### STRETCH GOALS
-
-1. Ability to delete a specific Koala from the database.  
-2. Confirmation dialog before deleting (research SweetAlert).
-3. Ability to make koalas toggle between ready for transfer and NOT ready for transfer.
-4. Add form validation, additional styling and a README.md.
-5. Client side filtering with a text box
-6. Ability to edit other information (Name, Age, Notes) for existing Koalas in the db.
-
-
 
 Final project Looks like this :
 
