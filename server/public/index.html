@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Koalla Holla</title>
-    <script src="vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
-    <script src="scripts/client.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="views/styles.css">
-  </head>
-  <body>
-    <header>
-      <img src="images/icon.png" class="icon" />
-      <h1>Koala Holla</h1>
-      <h3>1976 Llama Comma Drive</h2>
-      <h3>Walla Walla, WA</h2>
-    </header>
-    <section id="addKoala">
-      <h2>Add Koala</h2>
-      <input type="text" id="nameIn" value="" placeholder="Name">
-      <input type="text" id="ageIn" value="" placeholder="Age">
-      <input type="text" id="genderIn" value="" placeholder="Gender">
-      <input type="text" id="readyForTransferIn" value="" placeholder="Transfer">
-      <input type="text" id="notesIn" value="" placeholder="Notes">
-      <button type="button" id="addButton">Add Koala</button>
-    </section>
-    <section>
-      <h2>All Koalas</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Gender</th>
-            <th>Ready for Transfer</th>
-            <th>Notes</th>
-          </tr>
-        </thead>
-        <tbody id="viewKoalas">
-        </tbody>
-      </table>
-    </section>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title img src="server/public/favicon.ico">Koalla Holla
+  </title>
+  <script src="vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="style/koala.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <img src="images/koala__.webp" class="icon" />
+    <h1>Koala Holla</h1>
+    <h3>1976 Llama Comma Drive</h3>
+    <h3>Walla Walla, WA</h3>
+  </header>
+  <section id="addKoala">
+    <h2>Add Koala</h2>
+    <input type="text" id="nameIn" value="" placeholder="Name">
+    <input type="text" id="ageIn" value="" placeholder="Age">
+    <input type="text" id="genderIn" value="" placeholder="Gender">
+    <input type="text" id="readyForTransferIn" value="" placeholder="Ready To Transfer:Y/N">
+    <!-- <select id="readyForTransferIn" placeholder="Transfer">
+      <option value="False">False</option>
+      <option value="True">True</option>
+    </select> -->
+    <input type="text" id="notesIn" value="" placeholder="Notes">
+    <button type="button" id="addButton">Add Koala</button>
+  </section>
+  <section>
+    <h2 class="allKoalas">All Koalas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Ready for Transfer</th>
+          <th>Notes</th>
+          <th>Delete</th>
+          <th>Ready For Transfer</th>
+
+        </tr>
+      </thead>
+      <tbody id="viewKoalas">
+      </tbody>
+    </table>
+  </section>
+
+</body>
+
 </html>
