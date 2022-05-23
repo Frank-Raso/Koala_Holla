@@ -18,6 +18,6 @@ Technologies
 * Express
 * SQL
 
-Final project Looks like this :
+Final project :
 
 ![sample](FinishedEx.png)
