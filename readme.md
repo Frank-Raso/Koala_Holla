@@ -17,7 +17,3 @@ Technologies
 * Node
 * Express
 * SQL
-
-Final project :
-
-![sample](FinishedEx.png)
